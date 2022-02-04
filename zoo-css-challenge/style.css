@@ -53,14 +53,21 @@ h3 {
 }
 
 button {
+  font-size: larger;
   display: inline-block;
-  border-radius: 3px;
+  border-radius: 70px;
   cursor: pointer;
   padding: 10px 20px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
   background-color: #372772;
   border: 2px solid black;
   color: #fff;
+}
+button:hover,
+button:focus
+{
+  background-color: #cfa593;
+
 }
 
 footer {
