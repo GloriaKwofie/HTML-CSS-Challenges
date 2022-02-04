@@ -104,16 +104,21 @@ footer {
 
 .image-container img {
   vertical-align: top;
-  border: 5px solid #747c92;
+  border: 5px solid #8a7c31;
+}
+.image-container img:last-of-type {
+  vertical-align: top;
+  border: 5px solid #18505e;
 }
 
 .image-container img:first-of-type {
-  vertical-align: bottom;
+  vertical-align: top;
+  border: 5px solid #5f5320;
 }
 
 .tigers {
-  background-color: #0b3c49;
-  color: #f0e100;
+  background-color: #d2e3e9;
+  color: #0f1113;
 }
 
 .giraffe {
